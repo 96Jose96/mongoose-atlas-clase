@@ -3,7 +3,7 @@
 // En este caso creamos un archivo llamado User.js que contendrá nuestro modelo de User. De esta forma tendremos
 // una estructura que nos permitirá el uso de operaciones CRUD (Create, Read, Update, Delete) que pueden realizarse en la base de datos.
 
-const mongoose = required('mongoose')
+const mongoose = require('mongoose')
 
 const UserSchema = new mongoose.Schema({ //se esta creando un nuevo esquema de mongoose llamado userschema
     username: String,
